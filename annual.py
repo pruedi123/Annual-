@@ -124,7 +124,7 @@ if st.button("Calculate"):
         # Option to download the DataFrame as an Excel file
         output_file = 'required_annual_investment_by_allocation.xlsx'
         results_df.to_excel(output_file, index=False)
-        st.write(f"Required annual investments for all allocations have been saved to {output_file}.")
+        #st.write(f"Required annual investments for all allocations have been saved to {output_file}.")
 
         # Download button for CSV version
         st.download_button(
