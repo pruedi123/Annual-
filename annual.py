@@ -103,7 +103,7 @@ if st.button("Calculate"):
         results_df['Allocation'] = results_df['Allocation'].map(allocation_mapping)
 
         # Display the DataFrame in Streamlit
-        st.write("Results:")
+        st.write("Results--all in Real (inflation adjusted) values--in 'todays' dollars:")
         st.write(results_df)
 
         # Find the index of the minimum value
