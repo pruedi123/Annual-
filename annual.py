@@ -133,3 +133,7 @@ if st.button("Calculate"):
             file_name='required_annual_investment_by_allocation.csv',
             mime='text/csv'
         )
+
+import streamlit as st
+
+st.markdown('[Click here to go to Main Siter](https://www.paulruedi.com)')
