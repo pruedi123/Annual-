@@ -136,4 +136,4 @@ if st.button("Calculate"):
 
 import streamlit as st
 
-st.markdown('[Click here to go to Main Siter](https://www.paulruedi.com)')
+st.markdown('[Click here to go to Main Site](https://www.paulruedi.com)')
